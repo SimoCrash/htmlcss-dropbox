@@ -99,4 +99,10 @@ html {
 
 .margin-bot {
     padding-bottom: 40px;
+    line-height: 1.5em;
+}
+
+.arrow-down {
+    padding: 10px 10px 0 0;
+    font-size: 4em;
 }
