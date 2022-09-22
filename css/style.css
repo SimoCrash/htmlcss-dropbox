@@ -11,7 +11,7 @@ html {
 }
 
 
-/* header */
+/* header-top */
 
 .container-list {
     display: flex;
@@ -48,11 +48,17 @@ html {
     height: 100%;
 }
 
-.ul-top .btn-top {
+
+/* header-mix */
+
+.ul-top .btn-top, .btn-prova {
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
 }
+
+
+/* header-bottom */
 
 .container {
     padding-top: 70px;
@@ -71,16 +77,26 @@ html {
 }
 
 .flex-top {
+    margin-top: 100px;
     display: flex;
 }
 
 .container-prova {
-    flex-basis: 1;
-}
-
-.container-img img {
+    width: 40%;
 }
 
 .container-img {
-    flex-basis: 3;
+    position: relative;
+    width: 100%;
+}
+
+.container-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.margin-bot {
+    padding-bottom: 40px;
 }
