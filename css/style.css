@@ -1,5 +1,55 @@
+/* set generali */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header */
+
+.container-list {
+    display: flex;
+    height: 70px;
+    background-color: white;
+}
+
+.navbar-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none; 
+    align-items: center;
+}
+
+.ul-top {
+    display: flex;
+}
+
+.ul-top li{
+    list-style: none;
+    align-items: center;
+    margin: 1rem;
+}
+
+.ul-top a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+}
+
+.ul-top .btn-top {
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 20px;
+}
+
+.container {
+    background-color: #B4D0E7;
 }
