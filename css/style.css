@@ -17,15 +17,19 @@ html {
     display: flex;
     height: 70px;
     background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .navbar-top {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    list-style: none; 
+    list-style: none;
     align-items: center;
+    width: 100%;
 }
 
 .ul-top {
@@ -51,5 +55,32 @@ html {
 }
 
 .container {
+    padding-top: 70px;
     background-color: #B4D0E7;
+}
+
+.container-header {
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-header h1 {
+    font-size: 4.5em;
+    font-weight: 800;
+}
+
+.flex-top {
+    display: flex;
+}
+
+.container-prova {
+    flex-basis: 1;
+}
+
+.container-img img {
+}
+
+.container-img {
+    flex-basis: 3;
 }
