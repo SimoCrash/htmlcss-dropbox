@@ -30,6 +30,7 @@ html {
     list-style: none;
     align-items: center;
     width: 100%;
+    white-space: nowrap;
 }
 
 .ul-top {
@@ -106,3 +107,30 @@ html {
     padding: 10px 10px 0 0;
     font-size: 4em;
 }
+
+.btn-prova {
+    white-space: nowrap;
+
+}
+
+
+
+
+/* main */
+
+.container-main {
+    max-width: 1000px;
+    margin: 150px auto 0;
+}
+
+
+/* main-top */
+
+main h2 {
+    font-size: 3em;
+}
+
+.radio-check {
+    padding-top: 3em;
+}
+
