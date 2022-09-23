@@ -134,3 +134,20 @@ main h2 {
     padding-top: 3em;
 }
 
+.container-main-top-columns {
+    margin-top: 2em;
+    display: flex;
+    width: 33%;
+}
+
+.section-left {
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.section-up {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
