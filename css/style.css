@@ -159,11 +159,28 @@ main h2 {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 .section-down h3 {
     font-size: 20pt;
+}
+
+.section-down ul {
+    display: flex;
+}
+
+.section-down li {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.fa-solid {
+    color: #0061FF;
+    font-weight: 800;
+}
+.margin-left {
+    margin-left: 7px;
 }
 
 .margin1-section {
