@@ -21,6 +21,7 @@ html {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 12;
 }
 
 .navbar-top {
@@ -219,4 +220,55 @@ main h2 {
 
 .fa-building {
     color: black;
+}
+
+.container-main-top-row {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.section-up-row {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.section-down-row {
+    display: flex;
+    line-height: 1.5em;
+    padding: 30px;
+    font-size: 0.95em;
+    width: 100%;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.section-down-row h3 {
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+.width-row {
+    width: 70%;
+}
+
+.contatti-btn {
+    margin-left: 30px;
+    padding: 15px 30px;
+    background-color: #0061FF;
+    color: white;
+    height: 30%;
+}
+
+.container-main-top-bottom {
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.container-main-top-bottom img {
+    flex: 1 1 500px;
+}
+
+.container-main-top-bottom ul {
+    flex: 2 0 400px;
 }
