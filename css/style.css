@@ -119,7 +119,7 @@ html {
 
 /* main */
 
-.container-main {
+.container-main-top, .container-main-center {
     max-width: 1000px;
     margin: 150px auto 0;
 }
@@ -323,17 +323,16 @@ main h2 {
     margin-bottom: 30px;
 } 
 
-.container-main-center-center {
+.container-team {
     margin-top: 200px;
 }
 
-.container-main-center-center h2 {
+.container-team h2 {
     margin-bottom: 50px;
     line-height: 1.2em;
     width: 80%;
 }
 
-.container-main-center-center a {
+.container-team a {
     margin-bottom: 130px;
 }
-
