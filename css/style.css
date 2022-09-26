@@ -406,3 +406,20 @@ main h2 {
     margin-top: 50px;
     line-height: 1.5em;
 }
+
+.scroll {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.container-trial {
+    width: 100%;
+    background-color: #B4D0E7;
+    display: flex;
+}
+
+.trial {
+    margin: 150px auto;
+    max-width: 1000px;
+    justify-content: center;
+}
