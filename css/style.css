@@ -167,7 +167,7 @@ main h2 {
     font-size: 0.95em;
 }
 
-.section-down h3 {
+.section-down h3, .container-main-top-ulist h3 {
     font-size: 20pt;
 }
 
@@ -261,14 +261,31 @@ main h2 {
 
 .container-main-top-bottom {
     display: flex;
-    margin-top: 200px;
-    align-items: center;
+    margin-top: 170px;
+    align-items: flex-start;
 }
 
-.container-main-top-bottom img {
-    flex: 1 1 500px;
+.container-main-top-img {
+    width: 60%;
 }
 
-.container-main-top-bottom ul {
-    flex: 2 0 400px;
+.container-main-top-img img {
+    width: 100%;
+}
+
+.container-main-top-ulist {
+    width: 40% ;
+    padding-top: 70px;
+    padding-left: 40px;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.container-main-top-ulist li {
+    margin-bottom: 30px;
+}
+
+.container-main-top-ulist span {
+    border: 1px solid black;
+    padding: 15px 20px;
 }
