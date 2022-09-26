@@ -408,8 +408,9 @@ main h2 {
 }
 
 .scroll {
-    overflow: hidden;
+    overflow: auto;
     margin-top: 30px;
+    height: 100px;
 }
 
 .container-trial {
