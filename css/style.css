@@ -336,3 +336,59 @@ main h2 {
 .container-team a {
     margin-bottom: 130px;
 }
+
+.container-main-center-center {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container-uni-l, .container-overflow, .container-uni-r {
+    flex: 2 0 0px;
+    height: 640px;
+}
+
+.container-uni-l {
+    display: inline;
+    position: relative;
+} 
+
+.sq-green {
+    background-color: #A2D39B;
+}
+
+.sq-light-blue {
+    background-color: #0093CE;
+}
+
+.sq-bordeux {
+    background-color: #61082B;
+}
+
+.sq-orange {
+    background-color: #FF1C1C;
+}
+
+.container-overflow {
+    background-color: #F5F5F5;
+}
+
+.sq-red {
+    background-color: #D5001F;
+}
+
+.sq-blue {
+    background-color: #0D2481;
+}
+
+.sq-heavenly {
+    background-color: #B4D0E7;
+}
+
+.sq-yellow {
+    background-color: #FFD830;
+}
+
+.square img {
+    fill: #ffffff;
+}
