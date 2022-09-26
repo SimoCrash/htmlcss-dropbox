@@ -207,7 +207,7 @@ main h2 {
 
 .border-width {
     margin: 30px 0;
-    width: 50px;
+    width: 25%;
     border: 0.5px solid rgb(210, 210, 210);
 }
 
@@ -333,14 +333,11 @@ main h2 {
     width: 80%;
 }
 
-.container-team a {
-    margin-bottom: 130px;
-}
-
 .container-main-center-center {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-top: 130px;
 }
 
 .container-uni-l, .container-overflow, .container-uni-r {
@@ -350,7 +347,6 @@ main h2 {
 
 .container-uni-l {
     display: inline;
-    position: relative;
 } 
 
 .sq-green {
@@ -389,6 +385,24 @@ main h2 {
     background-color: #FFD830;
 }
 
+.square {
+    height: 50%;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .square img {
-    fill: #ffffff;
-} 
+    align-items: center;
+}
+
+.container-overflow {
+    padding: 50px;
+}
+
+.container-overflow p {
+    margin-top: 50px;
+    line-height: 1.5em;
+}
