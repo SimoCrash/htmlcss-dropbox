@@ -13,7 +13,7 @@ html {
 
 /* header-top */
 
-.container-list {
+.-footer {
     display: flex;
     height: 70px;
     background-color: white;
@@ -484,4 +484,37 @@ main h2 {
 
 .container-faq:hover .information {
     display: block;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.container-footer-top {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
+.container-footer-list {
+    margin: 150px 0;
+    width: 100%;
+}
+
+.list-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-flex li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.list-flex h3 {
+    margin-bottom: 40px;
 }
