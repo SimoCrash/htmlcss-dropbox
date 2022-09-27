@@ -22,7 +22,6 @@ html {
     right: 0;
     left: 0;
     z-index: 12;
-    border-bottom: 1px solid black;
 }
 
 .navbar-top {
@@ -58,6 +57,10 @@ html {
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
+}
+
+.box-shadow {
+    box-shadow: 0 0 5px 0 black;
 }
 
 
@@ -539,4 +542,8 @@ footer {
 
 .fa-caret-up, .fa-earth-americas {
     color: white;
+}
+
+.btn-main {
+    white-space: nowrap;
 }
