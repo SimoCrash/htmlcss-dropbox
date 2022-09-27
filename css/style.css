@@ -333,7 +333,7 @@ main h2 {
     width: 80%;
 }
 
-.container-main-center-center {
+.container-main-center-bottom {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -440,13 +440,17 @@ main h2 {
     color: #61082B;
 }
 
-.container-center-bottom {
+.container-main-bottom {
     max-width: 1000px;
     margin: auto;
 }
 
 .container-requests {
     margin: 100px 0;
+}
+
+.container-faq {
+    list-style: none;
 }
 
 .faq {
@@ -465,13 +469,19 @@ main h2 {
 }
 
 .information {
+    line-height: 1.5em;
     padding-bottom: 15px;
+    display: none;
 }
 
-.information-bottom {
+.container-faq-bottom {
     border-bottom: 1px solid rgb(210, 210, 210);  
 }
 
 .fa-chevron-down {
     color: black;
+}
+
+.container-faq:hover .information {
+    display: block;
 }
